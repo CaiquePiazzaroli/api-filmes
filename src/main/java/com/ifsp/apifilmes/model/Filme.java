@@ -1,5 +1,6 @@
 package com.ifsp.apifilmes.model;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
@@ -25,6 +26,7 @@ public class Filme {
     @JoinColumn(name = "genero_id")
     Genero genero;
 
+    @JsonManagedReference
     @ManyToMany
     @JoinTable(
             name = "atores_filmes",

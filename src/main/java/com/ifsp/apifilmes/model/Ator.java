@@ -1,5 +1,6 @@
 package com.ifsp.apifilmes.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
@@ -16,6 +17,7 @@ public class Ator {
     private String nome;
     private LocalDate dataNascimento;
 
+    @JsonBackReference
     @ManyToMany(mappedBy = "atores")
     List<Filme> filmes;
 
