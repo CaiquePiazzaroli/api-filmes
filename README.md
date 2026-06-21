@@ -72,6 +72,30 @@ Com a aplicação em execução, a documentação Swagger fica disponível em:
 
 - `/swagger-ui/index.html`
 
+## Documentação dos endpoints
+
+A interface do Springdoc / Swagger reúne os endpoints da aplicação e facilita a validação das rotas por recurso.
+
+### Autenticação
+
+![Documentação de autenticação](docs/autenticacao-controller.png)
+
+### Filmes
+
+![Documentação de filmes](docs/filme-controller.png)
+
+### Atores
+
+![Documentação de atores](docs/ator-controller.png)
+
+### Diretores
+
+![Documentação de diretores](docs/diretor-controller.png)
+
+### Gêneros
+
+![Documentação de gêneros](docs/genero-controller.png)
+
 ## Estrutura do projeto
 
 - `controller` - expõe os endpoints REST
