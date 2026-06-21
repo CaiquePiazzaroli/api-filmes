@@ -2,6 +2,10 @@
 
 API REST desenvolvida em Java com Spring Boot para cadastro e consulta de um catálogo de filmes. O projeto organiza o domínio em entidades como filmes, atores, diretores, gêneros e usuários, com suporte a autenticação e autorização via token JWT.
 
+## Modelagem do banco de dados
+
+![DER do banco de dados](docs/DER.png)
+
 ## Visão geral
 
 A aplicação permite realizar operações de criação, listagem, atualização e exclusão dos principais recursos do domínio:
